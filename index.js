@@ -3,9 +3,9 @@ const { Telegraf, Markup } = require('telegraf');
 const bot = new Telegraf('8429348446:AAEpZ_IlzTdMsXunzPDH7g5sitmLQ2q9ld4');
 
 // === ڕێکخستنەکان ===
-const CHANNEL_USERNAME = '@RebazAsaadku';
-const CHANNEL_LINK = 'https://t.me/RebazAsaadku';
-const CHANNEL_ID = -1001861873095;
+const CHANNEL_USERNAME = '@wtay_jwan23';
+const CHANNEL_LINK = 'https://t.me/wtay_jwan23';
+const CHANNEL_ID = -7729017182;
 const SILENT_START_HOUR = 0;   // 12 شەو
 const SILENT_END_HOUR = 7;     // 7 بەیانی
 
@@ -342,4 +342,5 @@ bot.launch()
 // وەستاندنی ڕێک
 process.once('SIGINT', () => bot.stop('SIGINT'));
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
+
 
